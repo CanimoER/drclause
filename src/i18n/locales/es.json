@@ -1,0 +1,188 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "upload": "Subir",
+    "download": "Descargar",
+    "export": "Exportar",
+    "import": "Importar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "refresh": "Actualizar",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "yes": "Sí",
+    "no": "No",
+    "ok": "OK"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "dashboard": "Panel",
+    "upload": "Subir Documentos",
+    "review": "Revisar Auditoría",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "logout": "Cerrar Sesión"
+  },
+  "auth": {
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "signOut": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "resetPassword": "Restablecer Contraseña",
+    "rememberMe": "Recordarme",
+    "dontHaveAccount": "¿No tienes una cuenta?",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "signInWithGoogle": "Iniciar sesión con Google",
+    "signInWithGithub": "Iniciar sesión con GitHub"
+  },
+  "home": {
+    "title": "Asistente de Auditoría Interna",
+    "subtitle": "Generador de listas de verificación AS 9100 e ISO 9001 con IA",
+    "description": "Sube tu lista de verificación y documentos de apoyo para obtener una lista pre-llenada con citaciones lista para revisar en minutos.",
+    "getStarted": "Comenzar",
+    "learnMore": "Saber Más",
+    "features": {
+      "title": "Características",
+      "automatedAnalysis": "Análisis Automatizado de Documentos",
+      "citationGeneration": "Generación de Citaciones",
+      "gapIdentification": "Identificación de Brechas",
+      "exportFormats": "Múltiples Formatos de Exportación"
+    }
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Bienvenido de vuelta",
+    "recentAudits": "Auditorías Recientes",
+    "quickActions": "Acciones Rápidas",
+    "stats": {
+      "totalAudits": "Total de Auditorías",
+      "completedAudits": "Completadas",
+      "pendingAudits": "Pendientes",
+      "accuracyRate": "Tasa de Precisión"
+    },
+    "createNewAudit": "Crear Nueva Auditoría",
+    "viewAllAudits": "Ver Todas las Auditorías"
+  },
+  "upload": {
+    "title": "Subir Documentos",
+    "description": "Sube tu lista de verificación de auditoría y documentos de apoyo para comenzar el proceso de análisis.",
+    "checklistUpload": {
+      "title": "Lista de Verificación de Auditoría",
+      "description": "Sube tu lista de verificación AS 9100 o ISO 9001 (formato Word, Excel o PDF)",
+      "dragDrop": "Arrastra y suelta tu lista de verificación aquí, o haz clic para explorar",
+      "supportedFormats": "Formatos soportados: .docx, .xlsx, .pdf"
+    },
+    "documentsUpload": {
+      "title": "Documentos de Apoyo",
+      "description": "Sube documentos del sistema de calidad, procedimientos y otros archivos relevantes",
+      "dragDrop": "Arrastra y suelta tus documentos aquí, o haz clic para explorar",
+      "supportedFormats": "Formatos soportados: .pdf, .docx, .txt",
+      "maxFiles": "Máximo 10 archivos, 10MB cada uno"
+    },
+    "processing": {
+      "title": "Procesando Documentos",
+      "description": "Analizando tus documentos y generando respuestas de auditoría...",
+      "step1": "Extrayendo texto de documentos",
+      "step2": "Creando embeddings de documentos",
+      "step3": "Analizando requisitos de la lista de verificación",
+      "step4": "Generando respuestas con citaciones",
+      "estimatedTime": "Tiempo estimado restante: {{time}}"
+    }
+  },
+  "review": {
+    "title": "Revisar Auditoría",
+    "description": "Revisa y edita las respuestas de auditoría generadas antes de finalizar.",
+    "auditInfo": {
+      "title": "Información de Auditoría",
+      "standard": "Estándar",
+      "date": "Fecha",
+      "auditor": "Auditor",
+      "status": "Estado"
+    },
+    "checklist": {
+      "title": "Elementos de la Lista de Verificación",
+      "clause": "Cláusula",
+      "requirement": "Requisito",
+      "response": "Respuesta",
+      "citations": "Citaciones",
+      "status": "Estado",
+      "notes": "Notas"
+    },
+    "status": {
+      "completed": "Completado",
+      "inProgress": "En Progreso",
+      "pending": "Pendiente",
+      "needsAttention": "Necesita Atención"
+    },
+    "actions": {
+      "saveProgress": "Guardar Progreso",
+      "exportAudit": "Exportar Auditoría",
+      "markComplete": "Marcar como Completado",
+      "addNote": "Agregar Nota"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "profile": {
+      "title": "Perfil",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "role": "Rol",
+      "organization": "Organización"
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "language": "Idioma",
+      "theme": "Tema",
+      "notifications": "Notificaciones",
+      "exportFormat": "Formato de Exportación Predeterminado"
+    },
+    "api": {
+      "title": "Configuración de API",
+      "openaiKey": "Clave de API de OpenAI",
+      "anthropicKey": "Clave de API de Anthropic",
+      "model": "Modelo Predeterminado"
+    }
+  },
+  "audit": {
+    "types": {
+      "as9100": "AS 9100",
+      "iso9001": "ISO 9001"
+    },
+    "sections": {
+      "section8": "Sección 8 - Operación",
+      "section7": "Sección 7 - Apoyo",
+      "section9": "Sección 9 - Evaluación del Desempeño"
+    },
+    "status": {
+      "draft": "Borrador",
+      "inReview": "En Revisión",
+      "completed": "Completado",
+      "archived": "Archivado"
+    }
+  },
+  "errors": {
+    "fileTooLarge": "El tamaño del archivo excede el límite máximo de 10MB",
+    "unsupportedFormat": "Formato de archivo no soportado",
+    "uploadFailed": "Falló la carga del archivo",
+    "processingFailed": "Falló el procesamiento del documento",
+    "networkError": "Error de red. Por favor verifica tu conexión.",
+    "unauthorized": "No estás autorizado para realizar esta acción",
+    "notFound": "El recurso solicitado no fue encontrado"
+  }
+} 

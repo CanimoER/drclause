@@ -1,0 +1,188 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "upload": "Upload",
+    "download": "Download",
+    "export": "Export",
+    "import": "Import",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "upload": "Upload Documents",
+    "review": "Review Audit",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "rememberMe": "Remember me",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInWithGoogle": "Sign in with Google",
+    "signInWithGithub": "Sign in with GitHub"
+  },
+  "home": {
+    "title": "Internal Audit Assistant",
+    "subtitle": "AI-powered AS 9100 and ISO 9001 audit checklist generator",
+    "description": "Upload your checklist and supporting documents to get a pre-filled, citation-rich checklist ready for review in minutes.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "features": {
+      "title": "Features",
+      "automatedAnalysis": "Automated Document Analysis",
+      "citationGeneration": "Citation Generation",
+      "gapIdentification": "Gap Identification",
+      "exportFormats": "Multiple Export Formats"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "recentAudits": "Recent Audits",
+    "quickActions": "Quick Actions",
+    "stats": {
+      "totalAudits": "Total Audits",
+      "completedAudits": "Completed",
+      "pendingAudits": "Pending",
+      "accuracyRate": "Accuracy Rate"
+    },
+    "createNewAudit": "Create New Audit",
+    "viewAllAudits": "View All Audits"
+  },
+  "upload": {
+    "title": "Upload Documents",
+    "description": "Upload your audit checklist and supporting documents to begin the analysis process.",
+    "checklistUpload": {
+      "title": "Audit Checklist",
+      "description": "Upload your AS 9100 or ISO 9001 audit checklist (Word, Excel, or PDF format)",
+      "dragDrop": "Drag and drop your checklist here, or click to browse",
+      "supportedFormats": "Supported formats: .docx, .xlsx, .pdf"
+    },
+    "documentsUpload": {
+      "title": "Supporting Documents",
+      "description": "Upload quality system documents, procedures, and other relevant files",
+      "dragDrop": "Drag and drop your documents here, or click to browse",
+      "supportedFormats": "Supported formats: .pdf, .docx, .txt",
+      "maxFiles": "Maximum 10 files, 10MB each"
+    },
+    "processing": {
+      "title": "Processing Documents",
+      "description": "Analyzing your documents and generating audit responses...",
+      "step1": "Extracting text from documents",
+      "step2": "Creating document embeddings",
+      "step3": "Analyzing checklist requirements",
+      "step4": "Generating responses with citations",
+      "estimatedTime": "Estimated time remaining: {{time}}"
+    }
+  },
+  "review": {
+    "title": "Review Audit",
+    "description": "Review and edit the generated audit responses before finalizing.",
+    "auditInfo": {
+      "title": "Audit Information",
+      "standard": "Standard",
+      "date": "Date",
+      "auditor": "Auditor",
+      "status": "Status"
+    },
+    "checklist": {
+      "title": "Checklist Items",
+      "clause": "Clause",
+      "requirement": "Requirement",
+      "response": "Response",
+      "citations": "Citations",
+      "status": "Status",
+      "notes": "Notes"
+    },
+    "status": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "pending": "Pending",
+      "needsAttention": "Needs Attention"
+    },
+    "actions": {
+      "saveProgress": "Save Progress",
+      "exportAudit": "Export Audit",
+      "markComplete": "Mark Complete",
+      "addNote": "Add Note"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": {
+      "title": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "organization": "Organization"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "language": "Language",
+      "theme": "Theme",
+      "notifications": "Notifications",
+      "exportFormat": "Default Export Format"
+    },
+    "api": {
+      "title": "API Configuration",
+      "openaiKey": "OpenAI API Key",
+      "anthropicKey": "Anthropic API Key",
+      "model": "Default Model"
+    }
+  },
+  "audit": {
+    "types": {
+      "as9100": "AS 9100",
+      "iso9001": "ISO 9001"
+    },
+    "sections": {
+      "section8": "Section 8 - Operation",
+      "section7": "Section 7 - Support",
+      "section9": "Section 9 - Performance Evaluation"
+    },
+    "status": {
+      "draft": "Draft",
+      "inReview": "In Review",
+      "completed": "Completed",
+      "archived": "Archived"
+    }
+  },
+  "errors": {
+    "fileTooLarge": "File size exceeds the maximum limit of 10MB",
+    "unsupportedFormat": "Unsupported file format",
+    "uploadFailed": "File upload failed",
+    "processingFailed": "Document processing failed",
+    "networkError": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action",
+    "notFound": "The requested resource was not found"
+  }
+} 
