@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Button } from '@components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@components/ui/card'
-import { Upload, FileText, AlertCircle } from 'lucide-react'
+import { Upload, FileText } from 'lucide-react'
 import { UploadDocuments } from '@/components/ui/upload-documents'
 import { DocumentStatus } from '@/components/document-status'
 

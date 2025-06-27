@@ -1,5 +1,4 @@
 import { ReactNode } from 'react'
-import { useSupabase } from '@lib/supabase/provider'
 
 interface AuthProviderProps {
   children: ReactNode
