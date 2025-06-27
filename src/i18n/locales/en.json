@@ -102,6 +102,24 @@
       "step3": "Analyzing checklist requirements",
       "step4": "Generating responses with citations",
       "estimatedTime": "Estimated time remaining: {{time}}"
+    },
+    "drag_drop": "Drag & drop documents here",
+    "select_files": "Select files",
+    "uploading": "Uploading...",
+    "supported_formats": "PDF, Word (.docx), Excel (.xlsx) - Max 10MB each",
+    "success": "Upload successful",
+    "uploaded_successfully": "uploaded successfully",
+    "error": "Upload error",
+    "uploaded_files": "Uploaded Files",
+    "errors": {
+      "size": "File exceeds 10MB limit",
+      "type": "Invalid file type. Only PDF, DOCX, and XLSX files are allowed",
+      "general": "An error occurred during upload"
+    },
+    "status": {
+      "uploading": "Uploading",
+      "success": "Success",
+      "error": "Error"
     }
   },
   "review": {
@@ -175,6 +193,21 @@
       "completed": "Completed",
       "archived": "Archived"
     }
+  },
+  "documents": {
+    "title": "Document Processing Status",
+    "no_documents": "No documents uploaded yet",
+    "status": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "completed": "Completed",
+      "failed": "Failed"
+    }
+  },
+  "checklist": {
+    "generate": "Generate Checklist",
+    "review": "Review Answers",
+    "export": "Export Results"
   },
   "errors": {
     "fileTooLarge": "File size exceeds the maximum limit of 10MB",

@@ -102,7 +102,40 @@
       "step3": "Analizando requisitos de la lista de verificación",
       "step4": "Generando respuestas con citaciones",
       "estimatedTime": "Tiempo estimado restante: {{time}}"
+    },
+    "drag_drop": "Arrastra y suelta documentos aquí",
+    "select_files": "Seleccionar archivos",
+    "uploading": "Subiendo...",
+    "supported_formats": "PDF, Word (.docx), Excel (.xlsx) - Máx 10MB cada uno",
+    "success": "Subida exitosa",
+    "uploaded_successfully": "subido exitosamente",
+    "error": "Error de subida",
+    "uploaded_files": "Archivos Subidos",
+    "errors": {
+      "size": "El archivo excede el límite de 10MB",
+      "type": "Tipo de archivo inválido. Solo se permiten archivos PDF, DOCX y XLSX",
+      "general": "Ocurrió un error durante la subida"
+    },
+    "status": {
+      "uploading": "Subiendo",
+      "success": "Éxito",
+      "error": "Error"
     }
+  },
+  "documents": {
+    "title": "Estado de Procesamiento de Documentos",
+    "no_documents": "No se han subido documentos aún",
+    "status": {
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "completed": "Completado",
+      "failed": "Error"
+    }
+  },
+  "checklist": {
+    "generate": "Generar Checklist",
+    "review": "Revisar Respuestas",
+    "export": "Exportar Resultados"
   },
   "review": {
     "title": "Revisar Auditoría",

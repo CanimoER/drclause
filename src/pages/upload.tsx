@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next'
 import { Button } from '@components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@components/ui/card'
 import { Upload, FileText, AlertCircle } from 'lucide-react'
+import { UploadDocuments } from '@/components/ui/upload-documents'
+import { DocumentStatus } from '@/components/document-status'
 
 export function UploadPage() {
   const { t } = useTranslation()
@@ -19,38 +21,11 @@ export function UploadPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Checklist Upload */}
+          {/* Document Upload */}
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center space-x-2">
-                <FileText className="h-5 w-5" />
-                <span>{t('upload.checklistUpload.title')}</span>
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 mb-4">
-                {t('upload.checklistUpload.description')}
-              </p>
-              <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
-                <Upload className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-                <p className="text-gray-600 mb-2">
-                  {t('upload.checklistUpload.dragDrop')}
-                </p>
-                <p className="text-sm text-gray-500">
-                  {t('upload.checklistUpload.supportedFormats')}
-                </p>
-                <Button className="mt-4" variant="outline">
-                  Choose File
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Supporting Documents Upload */}
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center space-x-2">
-                <FileText className="h-5 w-5" />
+                <Upload className="h-5 w-5" />
                 <span>{t('upload.documentsUpload.title')}</span>
               </CardTitle>
             </CardHeader>
@@ -58,21 +33,20 @@ export function UploadPage() {
               <p className="text-gray-600 mb-4">
                 {t('upload.documentsUpload.description')}
               </p>
-              <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
-                <Upload className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-                <p className="text-gray-600 mb-2">
-                  {t('upload.documentsUpload.dragDrop')}
-                </p>
-                <p className="text-sm text-gray-500">
-                  {t('upload.documentsUpload.supportedFormats')}
-                </p>
-                <p className="text-xs text-gray-400 mt-2">
-                  {t('upload.documentsUpload.maxFiles')}
-                </p>
-                <Button className="mt-4" variant="outline">
-                  Choose Files
-                </Button>
-              </div>
+              <UploadDocuments />
+            </CardContent>
+          </Card>
+
+          {/* Document Status */}
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center space-x-2">
+                <FileText className="h-5 w-5" />
+                <span>{t('documents.title')}</span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <DocumentStatus />
             </CardContent>
           </Card>
         </div>
