@@ -1,10 +1,11 @@
 import { createClient } from '@supabase/supabase-js'
 import type { Database } from '@/types/database'
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://placeholder.supabase.co'
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'placeholder-key'
 
-if (!supabaseUrl || !supabaseAnonKey) {
+// Only throw error if not using placeholder values
+if ((!supabaseUrl || !supabaseAnonKey) && !supabaseUrl.includes('placeholder')) {
   throw new Error('Missing Supabase environment variables')
 }
 

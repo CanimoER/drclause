@@ -9,6 +9,15 @@ interface ProtectedRouteProps {
 export function ProtectedRoute({ children }: ProtectedRouteProps) {
   const { user, loading } = useSupabase()
 
+  // Temporary: Allow access without authentication for UI testing
+  // TODO: Remove this when Supabase is properly configured
+  const isDevelopment = import.meta.env.DEV && 
+    import.meta.env.VITE_SUPABASE_URL?.includes('placeholder')
+
+  if (isDevelopment) {
+    return <>{children}</>
+  }
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
